@@ -1,0 +1,27 @@
+const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    fixed: true,
+    autoplay: true,
+    volume: 0.7,
+audio: [
+      {
+        name: "風の詩",
+        artist: '押尾コータロー',
+        url: 'https://cdn.jsdelivr.net/gh/minbiu/bgmusic/風の詩(风之诗)001.mp3',
+        cover: 'https://cdn.jsdelivr.net/gh/minbiu/bgmusic/風の詩(风之诗)001.jpg',
+      },
+      {
+        name: 'Canon In D Major',
+        artist: '纯音乐',
+        url: 'https://cdn.jsdelivr.net/gh/minbiu/bgmusic/Canon in D major002.mp3',
+        cover: 'https://cdn.jsdelivr.net/gh/minbiu/bgmusic/Canon in D major002.jpg',
+      },
+      {
+
+        name: 'lovin‘ you',
+        artist: '押尾コータロー',
+        url: 'https://cdn.jsdelivr.net/gh/minbiu/bgmusic/LOVIN' YOU003.mp3',
+        cover: 'https://cdn.jsdelivr.net/gh/minbiu/bgmusic/LOVIN' YOU003.jpg',
+      }
+   ]
+});
